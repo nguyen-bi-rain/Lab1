@@ -1,4 +1,6 @@
-﻿namespace ThucHanh1.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ThucHanh1.Models
 {
     public class Student
     {
@@ -11,6 +13,7 @@
         public bool IsRegular { get; set; }//Hệ: true-chính qui, false-phi cq
         public string? Address { get; set; }//Địa chỉ
         public DateTime DateOfBorth { get; set; }//Ngày sinh
-        public IFormFile ImageURL { get; set; }
+        [FileExtensions(Extensions = "png,jpg,jpeg,gif")]
+        public IFormFile? ImageURL { get; set; }
     }
 }

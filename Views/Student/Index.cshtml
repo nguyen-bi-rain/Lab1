@@ -5,7 +5,7 @@
 @* <a href="/Admin/student/add"></a> *@
 @* html taghelper asp-action asp-route *@
 @* <a  asp-route="list">Create</a> *@
-<h1>@ViewBag.Message</h1>
+
 <table class="table table-striped">
     <thead>
         <tr>
@@ -17,6 +17,7 @@
             <th>Hệ ĐT</th>
             <th>Địa chỉ</th>
             <th>Email</th>
+            <th>Hinh anh</th>
         </tr>
     </thead>
     <tbody>
@@ -52,6 +53,9 @@
                 <td>@(s.IsRegular ? "Chính quy" : "Phi chính quy")</td>
                 <td>@s.Address</td>
                 <td>@s.Email</td>
+                <td>
+                    <img src="wwwroot\uploads\@s.ImageURL">
+                </td>
                 
             </tr>
         }

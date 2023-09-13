@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ThucHanh1.Models;
+using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace ThucHanh1.Controllers
 {
@@ -8,9 +9,11 @@ namespace ThucHanh1.Controllers
     public class StudentController : Controller
     {
         private List<Student> listStudents = new List<Student>();
-        public StudentController()
+        private IHostingEnvironment env;
+        public StudentController(IHostingEnvironment _env)
 
         {
+            env = _env;
 
             //Tạo danh sách sinh viên với 4 dữ liệu mẫu
             listStudents = new List<Student>()
@@ -58,8 +61,14 @@ namespace ThucHanh1.Controllers
         [HttpPost("Admin/student/add")]
         public async Task<IActionResult> Create(Student student)
         {
-            string file = student.ImageURL.FileName;
-            ViewBag.Message = file;
+            if(student.ImageURL != null)
+            {
+                var file = Path.Combine(env.ContentRootPath, "wwwroot\\uploads", student.ImageURL.FileName);
+                using (FileStream fileStream = new FileStream(file, FileMode.Create))
+                {
+                    await student.ImageURL.CopyToAsync(fileStream);
+                }
+            }
             student.Id = listStudents.Last<Student>().Id + 1;
             listStudents.Add(student);
             return View("Index", listStudents);

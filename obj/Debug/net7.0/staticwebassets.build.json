@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T8r4augzv9I4CirjrE3WrP7dAtDUNzHXjO6iUjjjrIA=",
+  "Hash": "kONFaqPuYfjUne4Qn6n66wtqjcBFT2/kd+/o0dOmsBY=",
   "Source": "ThucHanh1",
   "BasePath": "_content/ThucHanh1",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\uploads\\chidep.jpg",
+      "SourceId": "ThucHanh1",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\",
+      "BasePath": "_content/ThucHanh1",
+      "RelativePath": "uploads/chidep.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\chidep.jpg"
     }
   ]
 }
