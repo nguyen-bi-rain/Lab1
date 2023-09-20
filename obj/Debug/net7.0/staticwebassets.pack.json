@@ -9,8 +9,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
       "Id": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\js\\site.js",
@@ -245,8 +253,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\uploads\\Rosé.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\Rosé.jpeg"
+    },
+    {
       "Id": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\uploads\\chidep.jpg",
       "PackagePath": "staticwebassets\\uploads\\chidep.jpg"
+    },
+    {
+      "Id": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\uploads\\jennie.jpg",
+      "PackagePath": "staticwebassets\\uploads\\jennie.jpg"
+    },
+    {
+      "Id": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\uploads\\losa.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\losa.jpeg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ThucHanh1.Microsoft.AspNetCore.StaticWebAssets.props",

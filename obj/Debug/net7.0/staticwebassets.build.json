@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kONFaqPuYfjUne4Qn6n66wtqjcBFT2/kd+/o0dOmsBY=",
+  "Hash": "jLl3FUMXmYZj4gXcDc9cZSuEJRdhOFVcOC8R2GN6iRo=",
   "Source": "ThucHanh1",
   "BasePath": "_content/ThucHanh1",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\css\\styles.css",
+      "SourceId": "ThucHanh1",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\",
+      "BasePath": "_content/ThucHanh1",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\favicon.ico",
       "SourceId": "ThucHanh1",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\js\\scripts.js",
+      "SourceId": "ThucHanh1",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\",
+      "BasePath": "_content/ThucHanh1",
+      "RelativePath": "js/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
       "Identity": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\js\\site.js",
@@ -1086,6 +1120,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\chidep.jpg"
+    },
+    {
+      "Identity": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\uploads\\jennie.jpg",
+      "SourceId": "ThucHanh1",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\",
+      "BasePath": "_content/ThucHanh1",
+      "RelativePath": "uploads/jennie.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\jennie.jpg"
+    },
+    {
+      "Identity": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\uploads\\losa.jpeg",
+      "SourceId": "ThucHanh1",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\",
+      "BasePath": "_content/ThucHanh1",
+      "RelativePath": "uploads/losa.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\losa.jpeg"
+    },
+    {
+      "Identity": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\uploads\\Rosé.jpeg",
+      "SourceId": "ThucHanh1",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\document\\Ki 5\\LapTrinhTrucQuan\\ThucHanh1\\wwwroot\\",
+      "BasePath": "_content/ThucHanh1",
+      "RelativePath": "uploads/Rosé.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Rosé.jpeg"
     }
   ]
 }

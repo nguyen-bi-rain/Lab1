@@ -1,4 +1,8 @@
-﻿@model IEnumerable<Student>
+﻿@{
+    Layout = "~/Views/Shared/_MyLayoutHelper.cshtml";
+    ViewData["Title"] = "Student List";
+}
+@model IEnumerable<Student>
 
 <a asp-action="Create" asp-controller="Student" class="btn btn-primary">Create Student</a>
 @* the a thuan *@
@@ -54,7 +58,10 @@
                 <td>@s.Address</td>
                 <td>@s.Email</td>
                 <td>
-                    <img src="wwwroot\uploads\@s.ImageURL">
+                    @if(s.ImageURL != null)
+                    {
+                        <img src="/uploads/@s.ImageURL.FileName" class="w-100">
+                    }
                 </td>
                 
             </tr>
@@ -62,3 +69,11 @@
     
     </tbody>
 </table>
+@section Scripts{
+    <script>
+        var table = document.querySelector("table")
+        table.onclick = function() {
+                table.style = "background-color:yellow;"
+        }
+    </script>
+}

@@ -1,8 +1,19 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    string message = "This is the message i want send you i want mentioned not thing";
 }
+
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>@message</p>
+    <p>@(DateTime.Now - TimeSpan.FromDays(7))</p>
+    @{
+        void RenderName(string name)
+        {
+            <p>Name : <strong>@name</strong></p>
+        }
+        RenderName("Mohamate Shala");
+    }
 </div>
