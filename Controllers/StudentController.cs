@@ -61,18 +61,32 @@ namespace ThucHanh1.Controllers
         [HttpPost("Admin/student/add")]
         public async Task<IActionResult> Create(Student student)
         {
-            if(student.ImageURL != null)
+                //if (student.ImageURL != null)
+                //{
+                //    var file = Path.Combine(env.ContentRootPath, "wwwroot\\uploads", student.ImageURL.FileName);
+                //    using (FileStream fileStream = new FileStream(file, FileMode.Create))
+                //    {
+                //        await student.ImageURL.CopyToAsync(fileStream);
+                //    }
+                //}
+            if (ModelState.IsValid)
             {
-                var file = Path.Combine(env.ContentRootPath, "wwwroot\\uploads", student.ImageURL.FileName);
-                using (FileStream fileStream = new FileStream(file, FileMode.Create))
-                {
-                    await student.ImageURL.CopyToAsync(fileStream);
-                }
+                student.Id = listStudents.Last<Student>().Id + 1;
+                listStudents.Add(student);
+                return View("Index", listStudents);
             }
-            student.Id = listStudents.Last<Student>().Id + 1;
-            listStudents.Add(student);
-            return View("Index", listStudents);
+            ViewBag.AllGenders = Enum.GetValues(typeof(Gender)).Cast<Gender>().ToList();
+            ViewBag.AllBranches = new List<SelectListItem>()
+            {
+                new SelectListItem{Text = "IT" ,Value = "1"},
+                new SelectListItem{Text = "BE" ,Value = "2"},
+                new SelectListItem{Text = "CE" ,Value = "3"},
+                new SelectListItem{Text = "EE" ,Value = "4"}
+            };
+            return View();
         }
+
     }
+    
 
 }
